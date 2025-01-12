@@ -77,7 +77,7 @@ What's the temperature in New Delhi?
 
 ## File Structure
 
-- `app.py`: The main application file with the Streamlit UI.
+- `streaming_agentic_chatbot.py`: The main application file with the Streamlit UI.
 - `.env`: Contains the API key for OpenAI and other environment variables.
 - `requirements.txt`: Contains the list of dependencies required to run the project.
 
