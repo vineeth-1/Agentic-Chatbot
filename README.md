@@ -6,7 +6,7 @@ This project implements an intelligent chatbot using the LangGraph framework and
 
 ```mermaid
 graph TD;
-    __start__([<p style="color:white;">__start__</p>]):::first
+    __start__([<p style="color:black;">__start__</p>]):::first
     chatbot([<p style="color:black;">chatbot</p>])
         search_tool([<p style="color:black;">search_tool</p>])
     __end__([<p style="color:black;">__end__</p>]):::last
@@ -15,7 +15,7 @@ graph TD;
     chatbot -.-> search_tool;
     chatbot -.-> __end__;
     classDef default fill:#f2f0ff,line-height:1.2
-    classDef first fill-opacity:0
+    classDef first fill-opacity:50
     classDef last fill:#bfb6fc
 ```
 
