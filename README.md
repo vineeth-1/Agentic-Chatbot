@@ -66,6 +66,11 @@ Once the dependencies are installed, you can run the chatbot using Streamlit. Fo
 ## Running the Chatbot
 
 ### Step 1: Start the Streamlit App
+
+```python
+streamlit run ./streaming_agentic_chatbot.py
+```
+
 This will start the app and open it in your default web browser.
 
 ### Step 2: Interact with the Chatbot
